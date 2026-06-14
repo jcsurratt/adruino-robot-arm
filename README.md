@@ -1,5 +1,9 @@
 # Robot Arm Controller
 
+Adapted for the 2026 NRCC XLR8 Academy.
+
+Original tutorial: https://projecthub.arduino.cc/ryan6534/recordable-cardboard-robot-arm-4b6783
+
 Windows setup commands for this project.
 
 ## PowerShell
