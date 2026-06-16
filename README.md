@@ -1,75 +1,67 @@
-# Robot Arm Controller
+# XLR8 Academy - Robot Arm Prototype Challenge
 
-Adapted for the 2026 NRCC XLR8 Academy.
+## Build Like an Engineer - Think Like a Programmer
 
-Original tutorial: https://projecthub.arduino.cc/ryan6534/recordable-cardboard-robot-arm-4b6783
+### Project Goal
 
-Windows setup commands for this project.
+Build a working robotic arm prototype using:
 
-## PowerShell
+- Arduino Uno
+- Servo Motors
+- Cardboard
+- Popsicle Sticks
+- Craft Materials
 
-Open PowerShell in the project folder:
+Today's goal is not to build a perfect robot arm.
 
-```powershell
-cd C:\python_apps\robot_arm
-```
+The goal is to learn how mechanical design, electronics, and programming work together to solve problems.
 
-Activate the virtual environment:
+---
 
-```powershell
-. .\.venv\Scripts\Activate.ps1
-```
+## Tutorial Resources
 
-Install the required Python packages:
+### Recordable Cardboard Robot Arm
 
-```powershell
-python.exe -m pip install -r requirements.txt
-```
+Video:
+https://www.youtube.com/watch?v=QgoK8o6J-Jo&t=13s
 
-Run the app:
+Project Guide:
+https://projecthub.arduino.cc/ryan6534/recordable-cardboard-robot-arm-4b6783
 
-```powershell
-python.exe robot_gui.py
-```
+---
 
-When you are finished, deactivate the virtual environment:
+### Popsicle Sticks Robotic Arm with Arduino | Quick and Easy Project
 
-```powershell
-deactivate
-```
+Video:
+https://www.youtube.com/watch?v=JBl7gwf7ORU
 
-## If Activation Is Blocked
+Project Guide:
+https://robotuno.com/proyecto-brazo-robotico-con-arduino/
 
-If PowerShell says script execution is disabled, run this once:
+---
 
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
+## Design Challenge
 
-Then activate the virtual environment again:
+Use ideas from both projects to create your own robot arm prototype.
 
-```powershell
-. .\.venv\Scripts\Activate.ps1
-```
+Questions to consider:
 
-## Command Prompt Alternative
+- Which materials work best?
+- Which design is strongest?
+- Which design is easiest to build?
+- How can you improve the gripper?
+- How can you make the arm more stable?
 
-If you prefer Command Prompt instead of PowerShell:
+---
 
-```bat
-cd C:\python_apps\robot_arm
-.\.venv\Scripts\activate.bat
-python -m pip install -r requirements.txt
-python robot_gui.py
-deactivate
-```
+## Future Engineer Challenge
 
-## Notes
+If this prototype was successful, what would Version 2 look like?
 
-This project uses `pyserial` to communicate with the robot arm over a COM port.
+Could you redesign the parts in CAD software?
 
-If `python` opens the wrong Python on your computer, use the explicit virtual environment Python instead:
+Could you 3D print stronger components?
 
-```powershell
-.\.venv\Scripts\python.exe robot_gui.py
-```
+Could you add sensors or AI?
+
+Think like an engineer and start planning the future.
